@@ -55,6 +55,8 @@ document.addEventListener("DOMContentLoaded",()=>{
 
 // !counter2
 
+
+
 let hasCounted = false;
 
 function debounce(func, delay) {
@@ -79,7 +81,7 @@ window.addEventListener(
 function startCounters() {
     function counter(id, start, end, duration) {
         let obje = document.getElementById(id);
-        if (!obje) return; // Eğer eleman yoksa devam etme
+        if (!obje) return;  // Eğer eleman yoksa devam etme
 
         let current = start;
         let range = end - start;
@@ -94,7 +96,7 @@ function startCounters() {
         }, step);
     }
 
-    counter("count1", 0, 200, 3000);
+    counter("count1", 0, 100, 3000);
     counter("count2", 0, 200, 3000);
     counter("count3", 0, 300, 3000);
     counter("count4", 0, 400, 3000);
