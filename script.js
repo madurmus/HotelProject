@@ -110,5 +110,19 @@ window.addEventListener("scroll", () => {
 });
 
 
+// ! our partners
+
+let ourPartnerSwiper = new Swiper(".our-partner",{
+
+slidesPerView: 5,
+spaceBetween: 30,
+loop:true,
+  
+autoplay:{
+    delay:2000,
+},
+
+})
+
 
 

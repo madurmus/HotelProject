@@ -26,7 +26,7 @@
 }
 
 body{
-    height: 5000px;
+    height: 8000px;
     font-family: var(--primary-font);
     background-color: var(--bg-white);
 }
@@ -165,9 +165,11 @@ body{
     margin-top: 200px;
 }
 
+
 .fs-7{
     font-size: 16px;
     font-weight: 300;
+    
 }
 
 .mt-7{
@@ -400,4 +402,45 @@ ul li{
 .gallery-item:hover .gallery-item-content::before{
     left: 0;
     opacity: 0.5;
+}
+
+.pricing-card{
+    background-color: #caa26981;
+}
+
+.pricing-card:hover{
+    background-color: #caa269;
+}
+
+/* ! blog alanı */
+
+.blog-content{
+    margin-top: -120px;
+    position: absolute;
+    z-index: 1;
+    right: 10px;
+    background-color: #fff;
+    box-shadow: 0.125rem 0.125rem 0.125rem gray;
+}
+
+.mt-6{
+    margin-top: 300px;
+}
+
+.our-partner-slider{
+    background-color: #f4f4f4;
+}
+
+
+h2{
+    margin-bottom: 70px;
+}
+
+footer .outline{
+    border: 1px solid yellow;
+    background-color: transparent;
+}
+
+footer .outline::placeholder{
+    color: white;
 }
